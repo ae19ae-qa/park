@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d801777-35b6-48cd-b547-8cc3c3686cc4">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="501a08ef-66c7-4e74-a185-62a78521d5ca">
   <producedTypes>
-    <objectType typeId="9a34bca3-11a4-4c7c-a0e2-eaebc2af3c40" valueTypeId="47ff14b6-5b62-4c1f-a61a-99569362a6c3"/>
-    <refType typeId="63ae795b-c765-47d6-bf69-9d2519715182" valueTypeId="45a02bfc-1b87-461b-8394-970cf1989e68"/>
-    <selectionType typeId="7227bff1-b125-4693-abad-bbbf3d2bfb1a" valueTypeId="7b61c0b6-879e-4b79-a62b-9998772abd34"/>
-    <listType typeId="c6605ad8-0f60-4932-aab1-8404d283894f" valueTypeId="397c241c-e78e-404e-9d9f-768175e5ec8c"/>
-    <managerType typeId="cbe45bdf-9e69-4a20-b834-00971e6d9228" valueTypeId="d5dcb1a2-21c3-4328-aaa3-db547cd39206"/>
+    <objectType typeId="bd1e84f7-d3a6-42d9-92b7-3389aaf2dcd5" valueTypeId="28136a40-2901-49a3-adf3-8b783aba528d"/>
+    <refType typeId="37ec59c4-a48b-42ac-bcd1-42575488cbb7" valueTypeId="b272a218-8a0d-4e63-b595-de19c0023a69"/>
+    <selectionType typeId="e350639b-e677-482b-af90-d0ff934e9405" valueTypeId="e1389c5a-44f5-4b8f-b7c9-c7ed3c835325"/>
+    <listType typeId="4ade61d2-0ef9-4109-8269-bc83158a366d" valueTypeId="218da0ea-29f2-4b15-9f86-b941089ca517"/>
+    <managerType typeId="edad502d-690a-4469-b754-5aeb5221f785" valueTypeId="bc7982f3-5fb6-4288-9aee-06329b49683f"/>
   </producedTypes>
   <name>ПродажаБилета</name>
   <synonym>
@@ -23,27 +23,34 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПродажаБилета.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="57e0b76f-4e3d-41e4-9e33-6b63520ad5ff">
-    <name>Аттракцион</name>
+  <attributes uuid="013a9f5b-aded-4748-97ea-dd1a66159589">
+    <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
-      <value>Аттракцион</value>
+      <value>Номенклатура</value>
     </synonym>
     <type>
-      <types>CatalogRef.Аттракционы</types>
+      <types>CatalogRef.Номенклатура</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ВидНоменклатуры</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ВидыНоменклатуры.EnumValue.ПосещениеАттракциона</value>
+      </value>
+    </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="2815c6a4-8e16-4957-91db-a2e2acc7547a">
+  <attributes uuid="158b03ca-9f70-4aad-a373-3b790393f389">
     <name>СуммаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -64,19 +71,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <templates uuid="8971a67f-d52d-4684-b591-11f9c5377c20">
-    <name>Билет</name>
+  <forms uuid="9dcb8849-a1a0-4823-b3c2-6670a27e8187">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="62b70caa-4dce-493d-8dd6-d0efd8a318b5">
+    <name>ПечатьБилета</name>
   </templates>
-  <commands uuid="a22f1313-1dc5-43b2-a17e-a8c2c22fdcfd">
-    <name>Билет</name>
+  <commands uuid="5df4dee9-497b-40b2-a522-e33386ea8e53">
+    <name>ПечатьБилета</name>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>DocumentRef.ПродажаБилета</types>
     </commandParameterType>
     <parameterUseMode>Multiple</parameterUseMode>
-    <representation>PictureAndText</representation>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Print</picture>
-    </picture>
+    <representation>Auto</representation>
   </commands>
 </mdclass:Document>

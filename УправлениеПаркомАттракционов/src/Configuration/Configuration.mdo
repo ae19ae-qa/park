@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41911f0c-7f99-41ca-9e40-5ac5658c3dcf">
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="071e0a27-62a5-4155-add1-bf2a8bc2cbe3">
   <name>УправлениеПаркомАттракционов</name>
   <synonym>
     <key>ru</key>
     <value>Управление парком аттракционов</value>
   </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6f3aafcb-e699-488d-8683-2ff736ea4d6d"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="5992eb8e-2e23-49d0-89fa-8f4d07f4202c"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2071809d-038d-4252-ad8c-a0bba1699473"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0409fcf8-12af-4bc6-9f4f-f0c275c299f8"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a2acea1a-fab8-4cf7-9627-d9d13b2fe25c"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6699adde-ec6f-4070-bf66-48085d62f8da"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2b4efb42-0ccb-4415-8f77-bedb7be62da5"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="732b104a-7367-47fb-b0ab-6eb9d0aba481"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="51affaf3-0691-4054-9092-b330f1412316"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7aba00eb-88c6-404e-88fc-0e1bdf2e21c1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1ee68301-9f0d-44b9-ad23-53cda5d2ce02"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="d25b55bf-7e7b-4c28-965e-f4fb63557567"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="65a06d12-7a10-45e0-b173-159b29d56dfc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c26d9773-0aec-4bb9-bc81-235ffa8f6dea"/>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <vendor>фирма 1С</vendor>
+  <vendor>Фирма1С</vendor>
   <version>1.0.0.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
@@ -29,14 +29,14 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
-    <value>фирма 1С</value>
+    <value>Фирма 1С</value>
   </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.25</compatibilityMode>
-  <languages uuid="9bf11cd9-3afd-4092-899f-7137d78ce0bd">
+  <languages uuid="0762d4bc-4557-43f4-ad5a-b2ddfc3100f1">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -49,9 +49,9 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПосещениеАттракциона</documents>
   <documents>Document.ПродажаБилета</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
-  <reports>Report.ПосещенияАттракционов</reports>
-  <reports>Report.ПродажиПоАттракционам</reports>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
