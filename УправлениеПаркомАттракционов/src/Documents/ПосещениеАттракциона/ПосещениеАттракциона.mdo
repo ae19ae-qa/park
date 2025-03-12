@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c9b4d27-7a58-42d2-ab5b-a6f583407ecc">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6302587-7983-499e-82a3-c66faf389e0c">
   <producedTypes>
-    <objectType typeId="94533837-6359-4a22-b835-8ac7fae20707" valueTypeId="95dd338b-9910-4bdb-a0df-1c60fcdf2177"/>
-    <refType typeId="cb823e39-7c19-471d-8593-59700430edad" valueTypeId="279852c1-014c-42eb-b5b7-a364918c4e17"/>
-    <selectionType typeId="067dc3b9-e1fa-42cd-940a-d9c0a896547d" valueTypeId="93957882-6a84-4053-afb0-02a210d4891e"/>
-    <listType typeId="4ab01010-ae64-4f5e-b185-1e9152cd86aa" valueTypeId="111ea133-0ce4-4fb7-ba4a-5361875fc7f3"/>
-    <managerType typeId="cfb558f8-1820-4599-a103-208c953ae6af" valueTypeId="b6c72850-89a0-4941-88b6-405d20747a99"/>
+    <objectType typeId="2cab8928-7ddc-49f1-93f8-c72ad0b9ebdc" valueTypeId="cf6bfef7-b2a2-47ea-9dca-95e56b41abaf"/>
+    <refType typeId="508005d6-2755-40bc-86f0-10aab5b13bfd" valueTypeId="94a029ca-f3de-4fca-bfce-03df008baf6a"/>
+    <selectionType typeId="9f5fb9d5-f1b0-4bbf-ae4e-72307d66f871" valueTypeId="632eabea-562d-4fac-821c-90564d75be5e"/>
+    <listType typeId="8cb4dcb8-13e0-4e99-b18c-690d593867ca" valueTypeId="6bc92ebe-3261-49cb-a7e9-1bd696925d3f"/>
+    <managerType typeId="437c2acf-9633-4105-ab0d-758d4766e4a5" valueTypeId="595d3c56-6d06-4e31-a344-82d16de3bf24"/>
   </producedTypes>
   <name>ПосещениеАттракциона</name>
   <synonym>
@@ -26,7 +26,7 @@
   <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="9c227399-eb5e-444a-b76a-34dc8cf57e65">
+  <attributes uuid="3445564d-9489-49d8-92c5-6928775d6566">
     <name>Аттракцион</name>
     <synonym>
       <key>ru</key>
@@ -37,11 +37,12 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f4dbedac-a30f-4af6-9196-8d34e438d1f2">
+  <attributes uuid="b5a31a7e-17e1-40ac-8adb-7071ee08bda8">
     <name>Основание</name>
     <synonym>
       <key>ru</key>
@@ -52,6 +53,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

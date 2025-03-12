@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d0dc477-48f0-4938-a281-fade6227c59c">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddbcaa2b-daa5-4b4b-9492-398b33d61443">
   <producedTypes>
-    <selectionType typeId="026a3037-0fa2-4805-8cce-4b0581ec977b" valueTypeId="9999bb32-16d4-469e-a610-8d64b753520a"/>
-    <listType typeId="28e2913b-8042-4a69-8c95-a1f78d9d6592" valueTypeId="e4ee7895-c1a2-482f-b6db-886b8452e075"/>
-    <managerType typeId="833b7d08-dc0c-4336-97d7-0a14ae3b8e1d" valueTypeId="f968f81a-33fe-467a-a6ab-c2f15982b8a4"/>
-    <recordSetType typeId="11adfb00-3072-4c6c-8d31-f0b0c7c34df8" valueTypeId="34b5f352-9069-4ae3-9570-3090814c8005"/>
-    <recordKeyType typeId="a501befc-6b65-404b-a05a-78c6b4028125" valueTypeId="4857d6dc-cbf2-4080-aafd-480d8470df11"/>
-    <recordType typeId="4e903d10-c6d9-4637-af12-decf041065ff" valueTypeId="544d3f47-a0ef-4f5b-97dc-a47ecc44854f"/>
+    <selectionType typeId="470d317f-4a51-42a2-83de-36c02e123b75" valueTypeId="5565e5aa-5774-4849-a1d3-26b6be7075b3"/>
+    <listType typeId="e8af262b-1c5e-4dd7-a16c-3a494c3593c9" valueTypeId="295fd79e-5495-411b-8217-9b90d1fee31e"/>
+    <managerType typeId="b2ed3c13-6496-4814-ba84-a19f5723430c" valueTypeId="53bfe7f9-7c36-4651-b0db-6f5853e1dca5"/>
+    <recordSetType typeId="1e78f256-8ec0-495a-bdb5-b102a3bb2109" valueTypeId="7610aed0-3c3f-4e31-a084-02cd6c5e1ad2"/>
+    <recordKeyType typeId="c21638d4-e523-4545-99c5-42bfd95c4267" valueTypeId="dcf6ac4f-cf45-4276-a15a-290e35f28d26"/>
+    <recordType typeId="b3a68259-3abd-4405-8d18-fa6e8ac09a52" valueTypeId="829a5018-267e-43e2-bf35-d0cf55a30c78"/>
   </producedTypes>
   <name>Продажи</name>
   <synonym>
@@ -17,7 +17,7 @@
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="125fc365-9c7a-4973-9885-42d57117faf5">
+  <resources uuid="ce0fcae5-e034-4e6a-a7dc-01f3dcdf4560">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -34,7 +34,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="d3a94c11-8254-4506-85ed-56d9f084f2e7">
+  <dimensions uuid="a7899e8f-3405-405e-833f-26d02207027a">
     <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>

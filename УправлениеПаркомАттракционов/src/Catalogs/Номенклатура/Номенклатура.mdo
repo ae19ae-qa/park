@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40e8df5e-faa5-401a-acc0-4e9f318f8282">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f184410-5e8d-4d67-aaaa-6c2c6412220d">
   <producedTypes>
-    <objectType typeId="b8fc10a4-10c9-43d1-8113-75411a8133d1" valueTypeId="55127969-2961-49e1-9056-5ae4ed2dfa5b"/>
-    <refType typeId="7678db02-ebe6-4a9b-9230-9535c198e658" valueTypeId="8d36f205-bbf7-4d98-bba3-f8eab8d8949d"/>
-    <selectionType typeId="5b755d15-0b75-4575-8444-069852912526" valueTypeId="5b703c82-f03c-4954-b641-3f687b8f0106"/>
-    <listType typeId="a38e0eba-78fe-43e7-967b-ae24ba131eb3" valueTypeId="24556937-0404-4dc9-ab60-1cfd84590cfc"/>
-    <managerType typeId="c8359228-5958-4eb9-b520-250db724ef10" valueTypeId="7d8aa630-3bb8-4b15-ba7d-d0a5343b79e3"/>
+    <objectType typeId="d86022b6-9b1f-410e-b220-bb78a7970cdb" valueTypeId="1110942b-beb6-4512-a0be-65721f7c6a33"/>
+    <refType typeId="ce221ee3-5eea-40fa-a99d-41ca71807894" valueTypeId="0dde78e2-49a1-4f14-8ecd-6ed085649cce"/>
+    <selectionType typeId="68a7b74a-9802-4e22-8878-9c9108b052f8" valueTypeId="8f1ad01b-3925-46d9-b4de-6c912845d8d6"/>
+    <listType typeId="9d0749ea-9539-4557-ae85-c4265d520c7b" valueTypeId="b6037497-9adf-4e29-8a4b-bd9139674ab4"/>
+    <managerType typeId="0e4b2705-5063-4060-8646-0ac42b5f3137" valueTypeId="50ce9507-f65e-49f4-9064-d6a6e7e59232"/>
   </producedTypes>
   <name>Номенклатура</name>
   <synonym>
@@ -32,7 +32,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="ec175f99-6dd4-4815-b250-58d9adbbe9a9">
+  <attributes uuid="8eed8251-9751-4984-8662-7e76675c276d">
     <name>ВидНоменклатуры</name>
     <synonym>
       <key>ru</key>
@@ -48,7 +48,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e72b3c5c-5966-4a8d-b5d5-a6402cd34af2">
+  <attributes uuid="7c026442-50a5-46b9-9b54-a34de4eeeff3">
     <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>
@@ -63,7 +63,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="35160fd8-9460-44e2-b17f-3fb9340043c7">
+  <attributes uuid="a23e21bf-1a52-400a-bd35-88f003e3e038">
     <name>КоличествоПосещений</name>
     <synonym>
       <key>ru</key>
@@ -83,7 +83,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="78a20fdb-4eec-477f-8ec2-c805fc874e76">
+  <forms uuid="b33d64c9-74c5-41c1-a54d-e74e77834e57">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

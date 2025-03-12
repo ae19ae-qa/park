@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d56539c8-ca1f-438d-bb81-3515bbace123">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a5618ba-640b-46da-8981-c01eae3857ec">
   <producedTypes>
-    <objectType typeId="3d17472e-026f-4401-9c40-9be1ef1e3b03" valueTypeId="7b5a6713-7bfd-4ec9-b8fb-61dabba73a61"/>
-    <refType typeId="3b19ff86-50a5-4b14-968f-2ce1ec65d985" valueTypeId="48798577-133a-4030-86b0-517fc860c74f"/>
-    <selectionType typeId="4b7037cd-0516-4d52-b417-c500f463ad5d" valueTypeId="3b780aeb-167e-4df4-9fd1-22fecfce2b82"/>
-    <listType typeId="12be9690-dee2-4376-9a79-fa814527c1fa" valueTypeId="15ad1630-7180-43c1-aa5c-ca4c886ffaff"/>
-    <managerType typeId="301e6ed6-dcc4-470a-8722-7c3c9dd26cdd" valueTypeId="1589cb2c-bd82-41d4-8de9-8b61a5ee4a63"/>
+    <objectType typeId="51564a54-9106-41b4-9846-a85caed6e7cb" valueTypeId="a300d4b5-9b17-401b-a9ff-85b4a703947f"/>
+    <refType typeId="9f8ca189-896e-4aaa-b52e-c91e434d65c9" valueTypeId="18dc7ed0-8fb9-4bd5-974c-e0839359de24"/>
+    <selectionType typeId="11349584-9462-47e8-b2c4-41decbdfc36b" valueTypeId="f68d1afa-c95f-489b-9c9e-2254b5d687ac"/>
+    <listType typeId="ed1568ef-fe72-4aab-a411-e68aeff07770" valueTypeId="2985df7f-3118-4d2d-9bee-d475a5573b22"/>
+    <managerType typeId="c4eadc23-1132-442a-b7c2-f157f2c28967" valueTypeId="ac5377b5-33c5-4d2a-bb50-67ae0bea439d"/>
   </producedTypes>
   <name>Аттракционы</name>
   <synonym>
@@ -19,10 +19,6 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>Аттракцион</value>
-  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -34,7 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="d6eeef10-5dd5-48d1-be87-49abe2d01c17">
+  <attributes uuid="21bea259-09ea-4bf5-895c-f84ce6f28797">
     <name>ВидАттракциона</name>
     <synonym>
       <key>ru</key>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c45eb7f-a590-4992-9575-1cbf57da7cb7">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66aa2abf-9a88-4c58-b2b2-6bcd687cf4fa">
   <producedTypes>
-    <objectType typeId="806f005c-34f1-4a3a-87ad-8d2a19d95b36" valueTypeId="553d13f1-3829-4103-83c7-6e238dd54846"/>
-    <refType typeId="3942d9fe-f592-4324-a9f1-5320414f89f2" valueTypeId="f1617491-18d5-40af-9140-6d3d8b5e8a61"/>
-    <selectionType typeId="2a98d94f-c4f8-4286-9fe8-2657efdc315f" valueTypeId="ceb73e4c-e274-4045-8b08-b2d7245b2610"/>
-    <listType typeId="6d71337b-0087-4f3b-b02f-a7fde19cdc72" valueTypeId="442bf597-f5b4-4dd5-8931-2ceb18e24254"/>
-    <managerType typeId="1491b3e7-7820-4467-aa96-dc8138dae825" valueTypeId="191d74ce-acb2-4087-bc70-eb7e0ddfd5cb"/>
+    <objectType typeId="518a0dff-1b83-4ea3-b35b-3b735a3b0f9a" valueTypeId="fbe3e499-a1d1-4689-ba1b-916a35d46967"/>
+    <refType typeId="c1896ab7-c3e9-4d0f-9f1a-0b4c40288859" valueTypeId="5a8c6d44-92ee-4c0e-ad62-f80c04bddaac"/>
+    <selectionType typeId="142ab971-876a-41e9-b67c-42f5c6e35b1b" valueTypeId="e5d989df-04d3-4e79-9ce2-d4703239c00d"/>
+    <listType typeId="efd476fc-3e2f-48b8-990b-7c6bee570f7e" valueTypeId="2e48f59b-0161-4726-b409-acc7a740ae45"/>
+    <managerType typeId="214f0017-33f0-4e3b-af30-7c7c0762b0d0" valueTypeId="c7b13fc0-e44c-4105-9953-908930310c18"/>
   </producedTypes>
   <name>ВидыАттракционов</name>
   <synonym>
@@ -19,14 +19,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>Вид аттракциона</value>
-  </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>50</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
