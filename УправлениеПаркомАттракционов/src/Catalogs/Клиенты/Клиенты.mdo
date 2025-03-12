@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11026437-7aaf-412d-ad91-25030c982d52">
+  <producedTypes>
+    <objectType typeId="edccf1f5-04bc-46c8-bbc6-9bf5644a0732" valueTypeId="7f59cf0b-e59d-41e3-a5da-f4c3dc77ecc8"/>
+    <refType typeId="741b5085-9ce5-40fe-ad5b-c257c9f5ea96" valueTypeId="1de96a0e-85ec-4cdc-86e7-19c2f224cb68"/>
+    <selectionType typeId="4952a5a0-7cf4-4607-ae8d-cc36ae5f5240" valueTypeId="79c6e263-bd5f-4804-8ba3-a7f9641eb8f2"/>
+    <listType typeId="a152cc48-ad82-4b03-9d0c-ec5a4fbc7c5b" valueTypeId="a5828519-01bc-48b8-bee5-3efb45e26185"/>
+    <managerType typeId="faf44b1a-5b28-4bb0-b403-1606b72e25ca" valueTypeId="9a0228f0-ad63-4400-aa65-9c340c4eb4a6"/>
+  </producedTypes>
+  <name>Клиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fe587a67-0cb0-4ef5-96d7-a4996bf416a3">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ba82c72c-70ee-4188-80e0-90e305b791fe">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
